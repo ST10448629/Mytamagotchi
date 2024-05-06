@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txtHungerValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hunger"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="428dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textClean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clean"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="497dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtHappy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="569dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:text="100"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:text="50"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="486dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:text="20"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <Button
+        android:id="@+id/btnClean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clean"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:icon="@drawable/download__2_"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="643dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnFeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:icon="@drawable/download"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="643dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:icon="@drawable/download__1_"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="643dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="363dp"
+        android:layout_height="347dp"
+        android:background="#0D404040"
+        app:srcCompat="@drawable/background1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
